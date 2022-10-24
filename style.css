@@ -1,0 +1,104 @@
+body {
+    background-color: #E5E5E5;
+}
+
+table, td, th {
+    border: 1px solid;
+}
+  
+table {
+    width: 170px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.container.display-num{
+    max-width: 200px;
+    box-shadow: 0.5rem 0.5rem 20px 0.1rem #888888;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.container{
+    align-items: center;
+}
+
+.inputtext{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.inputtext:focus{
+    outline: none !important;
+    border: 1px solid #ABAEFF;
+    box-shadow: 0 0 8px #719ECE;
+}
+
+.input-note{
+    text-align: center;
+    color: #77772C;
+}
+
+.button-start{
+    display: flex;
+}
+
+.flex-parent {
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+}
+
+button.button-left {
+    margin-right: 10px;
+    background-color: #00B012;
+}
+button.button-right {
+    background-color: #B00000;
+}
+
+.display{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    max-width: 32rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 7px;
+    box-shadow: 0.6rem 0.5rem 15px 0.3rem #888888;
+    background-color: white;
+}
+
+.display-left{
+    padding-right: 2rem;
+}
+ 
+.table-total{
+    font-weight: 100px;
+}
+
+.body-wrapper{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 38rem;
+    height: auto;
+    padding: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0rem 1rem 100px 2rem #888888;
+    background-color: #EEF0D4;
+}

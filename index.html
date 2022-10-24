@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <title>Helping tugas statistika</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <br>
+  <div class="container body-wrapper">
+
+    <br>
+
+
+
+    <div id="input">
+      <textarea id="inputtext" class="inputtext" rows="7" cols="35" spellcheck="false" placeholder="Input Data ..."
+        autofocus=""></textarea>
+    </div>
+    <br>
+    <div class="input-note">Note: input data harus ada pemisah spasi/koma (tidak harus rapih).
+      <br>Bisa pakai google lens dan langsung dipaste ke sini
+    </div>
+    <br>
+
+    <br>
+    <div class="flex-parent jc-center">
+      <button type="submit" id="button-left" class="button-left" onclick="main()" onmouseover="buttonMouseover_left()"
+        onmouseout="buttonMouseout_left()">= Convert</button>
+      <button type="submit" id="button-right" class="button-right" onclick="reset()"
+        onmouseover="buttonMouseover_right()" onmouseout="buttonMouseout_right()">x Reset</button>
+    </div>
+
+
+    <br><br>
+    <div class="container display">
+
+      <div class="display-left">
+        Unsorted :
+        <div class="container display-num" id="num-display"></div>
+        <br>
+        Sorted :
+        <div class="container display-num" id="num-display-sorted"></div>
+      </div>
+
+
+      <div class="display-right">
+
+
+        <div class="container other-display" id="other-display"></div>
+        <br>
+        <div class="container table-place" id="table-place"></div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <script>
+
+
+  </script>
+
+
+
+
+
+  <!-- <br><br><br><br><br><br><br><br><br><br><br><br> -->
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
